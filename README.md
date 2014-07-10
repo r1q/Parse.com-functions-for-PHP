@@ -1,7 +1,7 @@
 PHP-Parse.com-tools
 ===================
 
-Tools for the main functions of the Parse.com REST API. (https://parse.com/docs/rest)
+Tools for the main functions of the Parse.com REST API. (https://parse.com/docs/rest). Include it in your PHP file and you're ready to go.
 
 parseUpload($fileURL)
 ------------------------
