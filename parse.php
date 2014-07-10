@@ -99,7 +99,7 @@ function parseRequest($parseURL, $requestType, $data, $contentType) {
 	curl_setopt($curl,CURLOPT_PORT, 443);
 	curl_setopt($curl,CURLOPT_CUSTOMREQUEST, $requestType);
 	curl_setopt($curl,CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($curl,CURLOPT_POSTFIELDS, $data);
+    	curl_setopt($curl,CURLOPT_POSTFIELDS, $data);
 	curl_setopt($curl,CURLOPT_HTTPHEADER, 
     	array(	"X-Parse-Application-Id: " . $appId,
         		"X-Parse-REST-API-Key: " . $restKey,
