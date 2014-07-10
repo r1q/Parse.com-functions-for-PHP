@@ -60,7 +60,7 @@ function parseFetch($parseClassName, $parametersArray) {
 }
 
 function parseCreate($parseClassName, $parameters) {
-	if (!empty($parseClassName) && !empty($parseObjectID)) {
+	if (!empty($parseClassName) && !empty($parameters)) {
 		$url = 'https://api.parse.com/1/classes/' . $parseClassName;
 		$return = parseRequest($url, 'POST', json_encode($parameters), 'application/json');
 	}	
